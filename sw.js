@@ -1,4 +1,4 @@
-const CACHE_NAME = 'jay-jay-portfolio-cache-v1';
+const CACHE_NAME = 'jay-jay-portfolio-cache-v3';
 const ASSETS_TO_CACHE = [
   '/',
   '/index.html',
@@ -6,11 +6,25 @@ const ASSETS_TO_CACHE = [
   '/App.tsx',
   '/types.ts',
   '/constants.ts',
+  '/i18n/LanguageContext.tsx',
+  '/i18n/locales/en.ts',
+  '/i18n/locales/es.ts',
+  '/i18n/locales/pt.ts',
+  '/i18n/locales/it.ts',
+  '/i18n/locales/ja.ts',
+  '/i18n/locales/zh.ts',
   '/components/Header.tsx',
   '/components/ProjectCard.tsx',
   '/components/Footer.tsx',
+  '/components/LanguageSwitcher.tsx',
   '/components/icons/GitHubIcon.tsx',
   '/components/icons/ExternalLinkIcon.tsx',
+  '/components/icons/ARFlagIcon.tsx',
+  '/components/icons/USFlagIcon.tsx',
+  '/components/icons/BRFlagIcon.tsx',
+  '/components/icons/ITFlagIcon.tsx',
+  '/components/icons/JPFlagIcon.tsx',
+  '/components/icons/CNFlagIcon.tsx',
   '/manifest.json',
   '/icon.svg'
 ];
